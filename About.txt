@@ -1,0 +1,5 @@
+This is a port that allows FreeRTOS to act as a scheduler for pthreads within a process. 
+It is designed to allow for development and testing of code in a Posix environment. 
+It is considered a simulator because it will not keep real-time but it will retain the same deterministic task switching.
+
+For more info refere to Posix/Linux Simulator for FreeRTOS page on FreeRTOS website (http://www.freertos.org/FreeRTOS-simulator-for-Linux.html)
